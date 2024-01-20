@@ -1,0 +1,4 @@
+file_name	file_column_name	table_name	table_column_name_format
+patients.csv	dateOfBirth	ta	dob varchar(10)
+patients_treatmentPlans_steps.csv	deleted	ta_treat_ps	is_deleted integer
+patients_treatmentPlans_steps_treatments.csv	un_id	ta_treat0	treat_id2 integer PRIMARY KEY
